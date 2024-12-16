@@ -51,7 +51,7 @@ class RICH(HumanDataset):
         super(RICH, self).__init__(transform, data_split)
 
         self.use_cache = getattr(cfg, 'use_cache', False)
-        self.root_path = "/public_bme/data/zhuyt1128/rich/output/"
+        self.root_path = osp.join(cfg.data_dir, 'RICH', 'preprocessed_datasets')
         if self.data_split == 'train':
             self.annot_path_cache = osp.join(cfg.data_dir, 'cache', 'rich_train.npz')
         elif self.data_split == 'val':

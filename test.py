@@ -334,8 +334,11 @@ if __name__ == "__main__":
     encoder.load_state_dict(new_state_dict, strict=False)
     
     net = Fusion_Net(encoder, cfg.dataset)
-    # best h36m base vit
-    net.load_state_dict(torch.load('/public/home/zhuyt12022/muc/results/rich_20240812_142950.pt'))
+    # best RICH checkpoint
+    if cfg.dataset == 'human36m':
+        net.load_state_dict(torch.load('human36m.pt'))
+    elif cfg.dataset == 'rich':
+        net.load_state_dict(torch.load('rich.pt'))
     net = net.cuda()
     
     

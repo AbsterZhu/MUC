@@ -268,8 +268,7 @@ if __name__ == "__main__":
     encoder.load_state_dict(new_state_dict, strict=False)
     
     net = Fusion_Net(encoder, cfg.dataset)
-    # /public/home/zhuyt12022/muc/results/human36m_20240720_181052.pt
-    # net.load_state_dict(torch.load('/public/home/zhuyt12022/muc/results/human36m_20240720_181052.pt'))
+    # net.load_state_dict(torch.load('rich.pt'))
     net = net.cuda()
     
     
