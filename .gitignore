@@ -1,0 +1,3 @@
+common/pose_nets/pretrained_models/*
+common/utils/human_model_files/*
+rich.pt
