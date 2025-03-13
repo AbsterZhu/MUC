@@ -19,7 +19,7 @@ pip install -v -e .
 cd ../..
 ```
 
-## Preparation
+## Preparation 
 - Download all datasets          
   - [Human3.6M](http://vision.imar.ro/human3.6m/description.php)
   - [RICH](https://rich.is.tue.mpg.de/index.html)
