@@ -107,7 +107,7 @@ python test.py --froze --jrn_loss --srn_loss --dataset rich --no-full_test --num
 - [MMHuman3D](https://github.com/open-mmlab/mmhuman3d)
 
 ## Citation
-```text
+```bibtex
 @article{zhu2024muc,
   title={MUC: Mixture of Uncalibrated Cameras for Robust 3D Human Body Reconstruction},
   author={Zhu, Yitao and Wang, Sheng and Xu, Mengjie and Zhuang, Zixu and Wang, Zhixin and Wang, Kaidong and Zhang, Han and Wang, Qian},
