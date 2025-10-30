@@ -14,9 +14,9 @@ pip install mmcv-full==1.7.1 -f https://download.openmmlab.com/mmcv/dist/cu113/t
 pip install -r requirements.txt
 
 # install mmpose
-cd main/transformer_utils
+cd common/pose_nets/transformer_utils
 pip install -v -e .
-cd ../..
+cd ../../..
 ```
 
 ## Preparation 
